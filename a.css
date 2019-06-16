@@ -1,0 +1,50 @@
+body{
+    background-color: #ddd;
+}
+ #yin-yang{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    background:linear-gradient(to bottom, white 0%, white 50%, black 50%, black 100%);
+   position:relative;
+   margin:50px auto;
+}
+ #yin-yang .yin{
+   height:50px;
+   width:50px;
+   border-radius:50%;
+   position:absolute;
+   top:25px;
+   background-color: black;
+   left:0;
+ }
+ #yin-yang .yang{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    position:absolute;
+    margin-top:25px;
+    background-color: white;
+    right:0;
+  }
+  #yin-yang .yin .first{
+      width:10px;
+      height:10px;
+      position: absolute;
+      top:20px;
+      left:20px;
+      border-radius: 50%;
+      background-color:white;
+  }
+  #yin-yang .yang .second{
+    width:10px;
+    height:10px;
+    position: absolute;
+    top:20px;
+    right:20px;
+    border-radius: 50%;
+    background-color:black;
+}
+p{
+    text-align: center;
+}
